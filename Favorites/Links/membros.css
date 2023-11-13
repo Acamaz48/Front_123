@@ -1,0 +1,23 @@
+#membros {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+    margin: 10px auto;
+    padding: 10px; 
+    color: gold;
+    border: 2px solid gold;
+  }
+
+
+ #membros {
+    display: flex ;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: fit-content;
+    color: gold;
+    border: 2px solid gold;
+  }
+
+
