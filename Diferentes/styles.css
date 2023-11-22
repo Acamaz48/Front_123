@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+.team-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.paragrafo{
+    max-width: 75%;
+}
+
+h1, h2 {
+    color: navy;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items from end to end */
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for member container */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for member container */
+}
+
+.member img {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    border-radius: 50%; /* Circular images */
+    margin-right: 20px; /* Add margin between image and text */
+}
+
+.member h2 {
+    margin: 0;
+    color: #000; /* Black color for the title */
+    text-align: left;
+}
+
+.member p {
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+    margin: 0;
+}
+
+footer {
+    background-color: navy;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Ensure that footer stays at the bottom */
+html, body {
+    height: 100%;
+}
+
+.main-content {
+    min-height: calc(100vh - 40px); /* Adjust the 40px based on your footer size */
+    padding-bottom: 20px
+ }
